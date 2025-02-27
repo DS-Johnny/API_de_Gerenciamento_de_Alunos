@@ -1,0 +1,7 @@
+CREATE TABLE alunos (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    nome TEXT NOT NULL,
+    email TEXT NOT NULL,
+    curso TEXT NOT NULL,
+    ano INTEGER NOT NULL
+);
